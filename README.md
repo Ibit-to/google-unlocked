@@ -1,4 +1,4 @@
-# [Google Unlocked](http://ibit.ws/google-unlocked/)
+# [Google Unlocked](https://ibit.ws/post/google-unlocked/)
 Google Unlocked is an open source Chrome extension, which unlocks hidden google search results.
 
 The extension scans hidden links that were censored on Google search results due to complains. The tool scans those complains and extracts the links from them, then puts the links back into Google results, all in matter of seconds.
