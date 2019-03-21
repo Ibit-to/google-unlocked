@@ -6,7 +6,7 @@ $(function () {
     $('head').append('<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">')
     s = $('#search div.g').last()
 
-    $('div i').last().find('a').each(function (i, a) {
+    $('div i > a').each(function (i, a) {
         if (a.textContent.toLowerCase().indexOf('complaint') === -1) {
             return
         }
