@@ -1,18 +1,21 @@
 $(function () {
-
     if (window.location.href.indexOf('//www.google') === -1) {
         return
     }
-    $('head').append('<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">')
     s = $('#search div.g').last()
 
     $('div i > a').each(function (i, a) {
         if (a.href.toLowerCase().indexOf('chillingeffects') === -1) {
             return
         }
+        id = a.href.replace(/https?:\/\/www\.chillingeffects\.org\/notice.cgi\?sID=/, '')
+        u = 'https://www.lumendatabase.org/notices/' + id
+        if (navigator.userAgent.toLowerCase().indexOf('firefox') === -1) {
+            u = 'https://cors-anywhere.herokuapp.com/' + u
+        }
         $.ajax({
             type: 'GET',
-            url: 'https://cors-anywhere.herokuapp.com/' + a.href,
+            url: u,
             dataType: 'html',
             success: function (data) {
                 links = data.match(/>(https?:\/\/[^<]+)<\/li>/g)
@@ -32,4 +35,3 @@ $(function () {
 
 
 });
-
