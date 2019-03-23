@@ -13,6 +13,8 @@ The tool scans those complaints and extracts the links, returning them back to t
 - Open Chrome and go to chrome://extensions/ and check the box for Developer mode in the top right.
 - Click the Load unpacked extension button and select the unzipped folder for your extension to install it.
 
+# Install in Firfox
+[https://addons.mozilla.org/en-US/firefox/addon/google-unlocked/](https://addons.mozilla.org/en-US/firefox/addon/google-unlocked/)
 
 For other compilable browsers like Opera, [Install the latest release on your browser - you will need to confirm it as a known source](https://github.com/Ibit-to/google-unlocked/releases/download/1.0/google-unlocked.crx).
 
