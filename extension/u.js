@@ -7,7 +7,7 @@ $(function () {
     s = $('#search div.g').last()
 
     $('div i > a').each(function (i, a) {
-        if (a.textContent.toLowerCase().indexOf('complaint') === -1) {
+        if (a.href.toLowerCase().indexOf('chillingeffects') === -1) {
             return
         }
         $.ajax({
