@@ -9,13 +9,13 @@ $(function () {
             return
         }
         id = a.href.replace(/https?:\/\/www\.chillingeffects\.org\/notice.cgi\?sID=/, '')
-        u = 'https://www.lumendatabase.org/notices/' + id
+        url = 'https://www.lumendatabase.org/notices/' + id
         if (navigator.userAgent.toLowerCase().indexOf('firefox') === -1) {
-            u = 'https://cors-anywhere.herokuapp.com/' + u
+            url = 'https://cors-anywhere.herokuapp.com/' + url
         }
         $.ajax({
             type: 'GET',
-            url: u,
+            url: url,
             dataType: 'html',
             success: function (data) {
                 links = data.match(/>(https?:\/\/[^<]+)<\/li>/g)
