@@ -3,6 +3,13 @@ $(function () {
         return
     }
     s = $('#search div.g').last()
+    
+    var escapeHTML = function(str) {
+        return String(str).replace(/[&"'<>]/g, function(match) {
+            return escapeHTML.replacements[match];
+        });
+    }
+    escapeHTML.replacements = {"&": "&amp;", '"': "&quot;", "'": "&#39;", "<": "&lt;", ">": "&gt;"};
 
     $('div i > a').each(function (i, a) {
         if (a.href.toLowerCase().indexOf('chillingeffects') === -1) {
@@ -20,7 +27,7 @@ $(function () {
             success: function (data) {
                 links = data.match(/>(https?:\/\/[^<]+)<\/li>/g)
                 for (i in links) {
-                    u = links[i].replace('</li>', '').replace('>', '')
+                    var u = escapeHTML(links[i].replace('</li>', '').replace('>', ''))
                     s.after('<div class="g">'
                         + '<a href="' + u + '" target="_blank">' + u + '</a>'
                         + '</div>'
