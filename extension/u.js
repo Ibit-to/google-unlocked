@@ -11,7 +11,7 @@ $(function () {
         var id = a.href.replace(/https?:\/\/www\.chillingeffects\.org\/notice.cgi\?sID=/, '')
         var url = 'https://www.lumendatabase.org/notices/' + id
         if (navigator.userAgent.toLowerCase().indexOf('firefox') === -1) {
-            url = 'https://secret-ocean-49799.herokuapp.com/' + url
+            url = 'https://cors-anywhere.herokuapp.com/' + url
         }
         $.ajax({
             type: 'GET',

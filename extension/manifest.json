@@ -402,7 +402,7 @@
     "*://www.google.cat/*"
   ],
   "name": "Google Unlocked",
-  "version": "1.2",
+  "version": "1.3",
   "homepage_url": "http://ibit.ws/post/google-unlocked/",
   "manifest_version": 2,
   "content_security_policy": "script-src 'self' ; object-src 'self'"
