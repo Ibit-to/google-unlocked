@@ -14,11 +14,11 @@ The tool scans those complaints and extracts the links, returning them back to t
 
 ## Manual install in Chrome
 - Download the latest zip release from [Google Unlocked repository releases](https://github.com/Ibit-to/google-unlocked/releases)
-- Extract [the zip file](https://github.com/Ibit-to/google-unlocked/releases/download/v1.3/google-unlocked.zip) to a permanent path (Chrome will need to load it every time it restarts).
+- Extract [the zip file](https://github.com/Ibit-to/google-unlocked/releases/download/v1.4/google-unlocked.zip) to a permanent path (Chrome will need to load it every time it restarts).
 - Open Chrome and go to chrome://extensions/ and check the box for Developer mode in the top right.
 - Click the Load unpacked extension button and select the unzipped folder for your extension to install it.
 
-For other compilable browsers, [Install the latest release on your browser - you will need to confirm it as a known source](https://github.com/Ibit-to/google-unlocked/releases/download/v1.3/google-unlocked.crx).
+For other compilable browsers, [Install the latest release on your browser - you will need to confirm it as a known source](https://github.com/Ibit-to/google-unlocked/releases/download/v1.4/google-unlocked.crx).
 
 After installing the extension, every time you Google a keyword, it will transparently scan the hidden URLs and injects them at the bottom of the page.
 
