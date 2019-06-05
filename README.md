@@ -6,8 +6,10 @@ The tool scans those complaints and extracts the links, returning them back to t
 
 [Check the release page](https://github.com/Ibit-to/google-unlocked/releases).
 
-## Install in Chrome/Opera/Brave
-[Chrome Web Store](https://chrome.google.com/webstore/detail/google-unlocked/aldhhcbddlopnofbjimhnhglnhkfoino/)
+## Install in Chrome/Opera/Brave/Chromium
+~~[Chrome Web Store]~~
+
+The extension was taken down by Google from the Chrome store. Please use manual install or even better switch to Firefox :)
 
 ## Install in Firefox
 [Firefox Add-Ons](https://addons.mozilla.org/en-US/firefox/addon/google-unlocked/)
