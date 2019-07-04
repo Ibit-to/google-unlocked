@@ -14,7 +14,7 @@ The extension was taken down by Google from the Chrome store. Please use manual 
 ## Install in Firefox
 ~~[Firefox Add-Ons]~~
 
-Taken down too. So you need to (manually install it)[https://github.com/Ibit-to/google-unlocked/releases/download/v1.5/google_unlocked-1.5.xpi]. With Firefox open, hit Ctrl+ o (or Cmd+ o) > browse to the extension > double click the extension (or select Open) > Install Now.
+Taken down too. So you need to [manually install it](https://github.com/Ibit-to/google-unlocked/releases/download/v1.5/google_unlocked-1.5.xpi). With Firefox open, hit Ctrl+ o (or Cmd+ o) > browse to the extension > double click the extension (or select Open) > Install Now.
 
 ## Manual install in Chrome
 - Download the latest zip release from [Google Unlocked repository releases](https://github.com/Ibit-to/google-unlocked/releases)
