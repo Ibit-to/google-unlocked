@@ -216,7 +216,7 @@
     "activeTab",
     "webRequest",
     "webRequestBlocking",
-    "*://www.lumendatabase.org/*",
+    "*://lumendatabase.org/*",
     "*://www.google.com/*",
     "*://www.google.ad/*",
     "*://www.google.ae/*",

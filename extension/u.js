@@ -6,15 +6,11 @@ $(function () {
     var s = $('#cc')
 
     $('div i > a').each(function (i, a) {
-        if (a.href.toLowerCase().indexOf('chillingeffects') === -1) {
-            return
-        }
-        var id = a.href.replace(/https?:\/\/www\.chillingeffects\.org\/notice.cgi\?sID=/, '')
-        var url = 'https://www.lumendatabase.org/notices/' + id
+        if (a.href === 'https://www.google.com/support/answer/1386831') return;
         setTimeout(function () {
             $.ajax({
                 type: 'GET',
-                url: url,
+                url: a.href,
                 dataType: 'html',
                 success: function (data) {
                     var hm = {}
