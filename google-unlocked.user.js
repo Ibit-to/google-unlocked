@@ -69,7 +69,7 @@ $(function () {
                     if (response.status === 429) {
                         console.error('ERROR 429 Too Many Requests')
                         errorsElement.html('ERROR 429 Too Many Requests')
-                        resolve()
+                        reject()
                         return;
                     }
                     let hm = {}
