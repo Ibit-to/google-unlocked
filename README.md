@@ -16,6 +16,10 @@ The extension was taken down by Google from the Chrome store. Please use manual 
 
 Taken down too. So you need to [manually install it](https://github.com/Ibit-to/google-unlocked/releases/download/v1.5/google_unlocked-1.5.xpi). With Firefox open, hit Ctrl+ o (or Cmd+ o) > browse to the extension > double click the extension (or select Open) > Install Now.
 
+## Install as userscript
+- Install the userscript from [here](https://raw.githubusercontent.com/Ibit-to/google-unlocked/master/google-unlocked.user.js)
+- Allow access to defined URLs if userscript manager asks for permission.
+
 ## Manual install in Chrome
 - Download the latest zip release from [Google Unlocked repository releases](https://github.com/Ibit-to/google-unlocked/releases)
 - Extract [the zip file](https://github.com/Ibit-to/google-unlocked/releases/download/v1.5/google-unlocked.zip) to a permanent path (Chrome will need to load it every time it restarts).
