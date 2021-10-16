@@ -66,6 +66,12 @@ $(function () {
                 url: a.href,
                 timeout: 30000, // In milliseconds. If your connection is slow I'll suggest you to increase the time or just comment this line.
                 onload: (response) => {
+                    if (response.status === 429) {
+                        console.error('ERROR 429 Too Many Requests')
+                        errorsElement.html('ERROR 429 Too Many Requests')
+                        resolve()
+                        return;
+                    }
                     let hm = {}
                     const links = response.responseText.matchAll(/class="infringing_url">([^\s-<]+)\s*-\s*([0-9]+)/g)
 
