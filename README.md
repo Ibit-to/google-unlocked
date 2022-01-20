@@ -11,6 +11,9 @@ The tool scans those complaints and extracts the links, returning them back to t
 
 The extension was taken down by Google from the Chrome store. Please use manual install.
 
+## Install in Microsoft Edge Chromium
+[Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/google-unlocked/jpglfeaoddkclldihaonejddlioebjcl)
+
 ## Install in Firefox
 ~~[Firefox Add-Ons]~~
 
