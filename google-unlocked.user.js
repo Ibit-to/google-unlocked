@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Google Unlocked
-// @version      1.5
+// @version      1.6
 // @namespace    45c9a6614fccd4edff9592da
 // @description  Google Unlocked scans hidden search results that were censored by Google due to complaints
 // @home         https://github.com/Ibit-to/google-unlocked
